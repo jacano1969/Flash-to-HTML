@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<!-- old way: xmlObj.child.child.childNode[0];
+// new way (E4X) : xmlObj.card[1].image; -->
+
+<cardGame>
+
+		<card id="1" group="Classroom">
+			<word>cintiq</word>
+			<hint>better than a wacom pad!</hint>
+		</card>
+
+		<card id="2" group="Classroom">
+			<word>marlboro</word>
+			<hint>Don't smoke me!</hint>
+		</card>
+		<card id="3" group="Classroom">
+			<word>Xing</word>
+			<hint>The best animated short EVER!!!</hint>
+		</card>
+		<card id="4" group="Classroom">
+			<word>Barack Obama</word>
+			<hint>winner of a certain presidential election</hint>
+		</card>
+		<card id="5" group="Classroom">
+			<word>slinky</word>
+			<hint>Fun for a girl and a boy!</hint>
+		</card>
+
+</cardGame>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<animals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<animal>
+		<type>carnivore</type>
+		<name>American Cheetah</name>
+		<img>Americancheetah.png</img>
+	</animal>
+	
+	<animal>
+		<type>herbivore</type>
+		<name>American Mastadon</name>
+		<img>Americanmastadon.png</img>
+	</animal>
+	<animal>
+		<type>herbivore</type>
+		<name>California Tapir</name>
+		<img>Californiatapir.png</img>
+	</animal>
+	<animal>
+		<type>carnivore</type>
+		<name>American Lion</name>
+		<img>Americanlion.png</img>
+	</animal>
+	<animal>
+		<type>herbivore</type>
+		<name>Deer</name>
+		<img>deer.png</img>
+	</animal>
+	
+	<animal>
+		<type>herbivore</type>
+		<name>Giant Ancestor of Bison</name>
+		<img>giantancestorofbison.png</img>
+	</animal>
+	<animal>
+		<type>herbivore</type>
+		<name>Giant Beaver</name>
+		<img>giantbeaver.png</img>
+	</animal>
+	<animal>
+		<type>herbivore</type>
+		<name>Giant Peccary</name>
+		<img>giantpeccary.png</img>
+	</animal>
+	<animal>
+		<type>carnivore</type>
+		<name>Dire Wolf</name>
+		<img>direwolf.png</img>
+	</animal>
+	<animal>
+		<type>herbivore</type>
+		<name>Ground Sloth</name>
+		<img>groundsloth.png</img>
+	</animal>
+	<animal>
+		<type>herbivore</type>
+		<name>Harlans Muskox</name>
+		<img>harlansmuskox.png</img>
+	</animal>
+	<animal>
+		<type>carnivore</type>
+		<name>Short Faced Bear</name>
+		<img>short-facedbear.png</img>
+	</animal>
+	<animal>
+		<type>herbivore</type>
+		<name>Mammoth</name>
+		<img>mammoth.png</img>
+	</animal>
+	<animal>
+		<type>carnivore</type>
+		<name>Saber-toothed Cat</name>
+		<img>saber-toothedcat.png</img>
+	</animal>
+	<animal>
+		<type>herbivore</type>
+		<name>North American Llama</name>
+		<img>NorthAmericanllama.png</img>
+	</animal>
+	<animal>
+		<type>herbivore</type>
+		<name>Pronghorn</name>
+		<img>pronghorn.png</img>
+	</animal>
+
+	<animal>
+		<type>herbivore</type>
+		<name>Saiga</name>
+		<img>saiga.png</img>
+	</animal>
+	<animal>
+		<type>carnivore</type>
+		<name>Scimitar Cat</name>
+		<img>scimitarcat.png</img>
+	</animal>
+
+	<animal>
+		<type>herbivore</type>
+		<name>Stag-Moose</name>
+		<img>stagmoose.png</img>
+	</animal>
+	<animal>
+		<type>herbivore</type>
+		<name>Western Camel</name>
+		<img>westerncamel.png</img>
+	</animal>
+</animals>

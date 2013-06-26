@@ -2,19 +2,101 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-</head>
-
-<body>
-	<canvas id="canvas1" width="500" height="300">
+<title>Drag and Drop Demo</title>
+    
+	<style type="text/css"> 
+	#div1 {width:150px;height:110px;padding:10px;border:1px solid #aaaaaa;}
+	</style>
+    <script type="text/javascript">
+	function allowDrop(ev)
+	{
+	ev.preventDefault();
+	}
+	
+	function drag(ev)
+	{
+	ev.dataTransfer.setData("Text",ev.target.id);
+	}
+	
+	function drop(ev)
+	{
+	ev.preventDefault();
+	var data=ev.dataTransfer.getData("Text");
+	ev.target.appendChild(document.getElementById(data));
+	}
+	function formReset(){
+		location.reload(true);
+	}
+	</script>
+	</head>
+	<body>
+    <!--<canvas id="canvas1" width="500" height="300">
     Your browser does not support canvas.
     </canvas>
-    <script type="text/javascript">
+	<script type="text/javascript">
 		var canvas = document.getElementById('canvas1');
 		var context = canvas.getContext('2d');
 		
 		
-	</script>
+	</script>-->
+    <form id="frm1">
+	<p>Drag the Cheetah image into the rectangle:</p>
+    <table border="1">
+    	<tr>
+        	<td>
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">American Cheetah</div>
+    		</td>
+            <td>
+            	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            	<img id="drag1" src="resources/Americancheetah.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+                </div>
+            </td>
+       </tr>
+       <tr>
+        	<td>
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    		</td>
+            <td>
+            	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="drag2" src="resources/Americanlion.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+                </div>
+            </td>
+       </tr>
+       <tr>
+        	<td>
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    		</td>
+            <td>
+            	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="drag3" src="resources/Americanmastadon.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+                </div>
+            </td>
+       </tr>
+       <tr>
+        	<td>
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    		</td>
+            <td>
+            	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="drag4" src="resources/Californiatapir.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+                </div>
+            </td>
+       </tr>
+       <tr>
+        	<td>
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    		</td>
+            <td>
+            	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="drag5" src="resources/deer.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+                </div>
+            </td>
+       </tr>
+   </table>
+   </form>
+   <input type="button" id="reset" onclick="formReset()" value="Reset"/>
+	
+	
 
 
 </body>

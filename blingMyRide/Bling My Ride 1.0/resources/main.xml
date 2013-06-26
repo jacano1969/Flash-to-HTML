@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<pmr
+	instructions="It is your lucky day! You get to pick your favorite style of car from the four provided in this game. Once you have decided on a style of car then you will be shown videos that will have someone signing words to you. The game is hangman so you will be guessing letters from the word. For each letter you guess correctly you will receive $50. With the money you are able to buy bling items. For each letter you guess incorrectly your vehicle will be damaged, so be careful. You have the opportunity to fix damaged items if the occasion should arise that you are missing your letters. Also if you do not like a type of bling you purchased you can sell it back for fraction of the orignal cost. Get as much cash as you can so you can bling your ride just how you want it. Good Luck!!!"
+>
+	<set>
+		<word>jealous</word>
+		<videoFile>jealous.mov</videoFile>
+	</set>
+	<set>
+		<word>headache</word>
+		<videoFile>headache.mov</videoFile>
+	</set>
+	<set>
+		<word>fall in love</word>
+		<videoFile>fall-in-love.mov</videoFile>
+	</set>
+	<set>
+		<word>change</word>
+		<videoFile>change.mov</videoFile>
+	</set>
+	<set>
+		<word>answer</word>
+		<videoFile>answer.mov</videoFile>
+	</set>
+	<set>
+		<word>lousy</word>
+		<videoFile>lousy.mov</videoFile>
+	</set>
+	<set>
+		<word>must</word>
+		<videoFile>must.mov</videoFile>
+	</set>
+	<set>
+		<word>tape</word>
+		<videoFile>tape.mov</videoFile>
+	</set>
+	<set>
+		<word>ugly</word>
+		<videoFile>ugly.mov</videoFile>
+	</set>
+	<set>
+		<word>zipper</word>
+		<videoFile>zipper.mov</videoFile>
+	</set>	
+
+
+</pmr>

@@ -1,0 +1,68 @@
+BODY, P, DIV, TABLE, TD, TH	{font-family: Verdana,sans-serif; color: #FFFFFF; font-size: 11px; line-height: 14px;}
+
+FORM					{size: 2px;}
+
+.formcolor{
+scrollbar-3dlight-color:; 
+scrollbar-arrow-color:#3A5F71; 
+scrollbar-base-color:#EDEFEE; 
+scrollbar-darkshadow-color:999999; 
+scrollbar-face-color:333333; 
+scrollbar-highlight-color:;
+scrollbar-shadow-color:999999; 
+scrollbar-track-color:; 
+scrollbar-tracklight-color:; 
+background-color:#EDEFEE;
+font:normal 8pt verdana;color:#333333;}
+
+HR              		{height: 1px; color:#999999;}
+
+A 						{font-family: Verdana,sans-serif; color: #F8B328; text-decoration: none;}
+A:hover					{font-family: Verdana,sans-serif; color: #F8B328; text-decoration: none;}
+A:visted 				{font-family: Verdana,sans-serif; color: #F8B328; text-decoration: none;}
+
+.nav2					{font-family: Verdana,sans-serif; color: #0C2577; font-size: 11px; line-height: 12px; font-weight: bold;}
+.nav2:link 				{font-family: Verdana,sans-serif; color: #0C2577; font-size: 11px; line-height: 12px; text-decoration: none; font-weight: bold;}
+.nav2:hover 			{font-family: Verdana,sans-serif; color: #A8A810; font-size: 11px; line-height: 12px; text-decoration: none; font-weight: bold;}
+
+.titlewhite				{font-family: Arial,sans-serif; color: #FFFFFF; font-size: 16px; line-height: 14px; font-weight: bold; text-transform: uppercase;}
+
+.titlegreen				{font-family: Arial,sans-serif; color: #AFCD6F; font-size: 16px; line-height: 14px; font-weight: bold; text-transform: uppercase;}
+
+.titleorange			{font-family: Arial,sans-serif; color: #F2AA68; font-size: 16px; line-height: 14px; font-weight: bold; text-transform: uppercase;}
+
+.titleyellow			{font-family: Arial,sans-serif; color: #FFFF99; font-size: 16px; line-height: 14px; font-weight: bold; text-transform: uppercase;}
+
+.subhead				{font-family: Arial,sans-serif; color: #99FFFF; font-size: 12px; line-height: 14px; font-weight: bold;}
+
+.contactwhite			{font-family: Arial,sans-serif; color: #FFFFFF; font-size: 11px; line-height: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: .001cm;}
+
+.contactbody			{font-family: Verdana,sans-serif; color: #FFFFFF; font-size: 11px; line-height: 18px;}
+.contactbody:link 		{font-family: Verdana,sans-serif; color: #FFFFFF; font-size: 11px; line-height: 18px; text-decoration: none;}
+.contactbody:visited	{font-family: Verdana,sans-serif; color: #FFFFFF; font-size: 11px; line-height: 18px; text-decoration: none;}
+
+.body					{font-family: Verdana,sans-serif; color: #FFFFFF; font-size: 13px; line-height: 18px;}
+.body:link 				{font-family: Verdana,sans-serif; color: #FFFF99; font-size: 13px; line-height: 18px; text-decoration: none;}
+.body:hover 			{font-family: Verdana,sans-serif; color: #AFCD6F; font-size: 13px; line-height: 18px; text-decoration: none;}
+.body:visited			{font-family: Verdana,sans-serif; color: #AFCD6F; font-size: 13px; line-height: 18px; text-decoration: none;}
+
+.cobody					{font-family: Verdana,sans-serif; color: #FFFFFF; font-size: 11px; line-height: 18px;}
+.cobody:link 			{font-family: Verdana,sans-serif; color: #394D88; font-size: 11px; line-height: 18px; text-decoration: none;}
+.cobody:hover 			{font-family: Verdana,sans-serif; color: #394D88; font-size: 11px; line-height: 18px; text-decoration: none;}
+.cobody:visited			{font-family: Verdana,sans-serif; color: #394D88; font-size: 11px; line-height: 18px; text-decoration: none;}
+
+.quote					{font-family: Verdana,sans-serif; color: #394D88; font-size: 10px; line-height: 14px;}
+
+.quoteby				{font-family: Verdana,sans-serif; color: #666666; font-size: 11px; line-height: 14px; font-weight: bold;}
+
+.quoteco				{font-family: Verdana,sans-serif; color: #394D88; font-size: 10px; line-height: 14px; font-style: italic;}
+
+.toolbox				{font-family: Arial,sans-serif; color: #1B4870; font-size: 9px; line-height: 10px;}
+.toolbox:link 			{font-family: Arial,sans-serif; color: #1B4870; font-size: 9px; line-height: 10px;}
+.toolbox:hover 			{font-family: Arial,sans-serif; color: #1B4870; font-size: 9px; line-height: 10px;}
+
+.copyright				{font-family: Arial,sans-serif; color: #1B4870; font-size:  9px; line-height: 10px;}
+.copyright:link 		{font-family: Arial,sans-serif; color: #1B4870; font-size: 	9px; line-height: 10px;}
+.copyright:hover		{font-family: Arial,sans-serif; color: #1B4870; font-size:  9px; line-height: 10px;}
+
+#span					{z-index: 1;}
