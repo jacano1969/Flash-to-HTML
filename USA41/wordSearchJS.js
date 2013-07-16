@@ -63,6 +63,7 @@ $(function(){
 		$(event.originalEvent.target).removeClass('wrong').addClass('right');
     		$('#'+draggedAnswerID).remove(); // Get rid of the item from the list (only if it's correct)
 	    }else{
+			$(eventTarget).text("Wrong Please try again");
 		$(event.originalEvent.target).removeClass('right').addClass('wrong');
 	    };
 
