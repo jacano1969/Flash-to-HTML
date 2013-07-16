@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#container{
+	border: solid;
+	border-radius: 1em;
+	height: 35em;
+	width: 50em;
+}
+
+#answerBox{
+	float: right;
+	height: 100%;
+	text-align: center;
+	width: 14.5em;
+}
+
+#quoteBox{
+	border-right: solid;
+	float: left;
+	height: 100%;
+	width: 35em;
+}
+
+#report{
+    margin: 5em auto 1em auto;
+}
+
+#report.allCorrect{
+    background-color: #DFD;
+    font-weight: bold;
+}
+
+.answer{
+    cursor: pointer;
+    margin: 0.5em auto;
+}
+
+.blank{
+    background-color: #DDD;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+.blank.capitalize{
+    text-transform: capitalize;
+}
+
+.blank.right{
+    background-color: #DFD;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.blank.wrong{
+    background-color: #000;
+    color: #FDD;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.quote{
+    margin-bottom: 2em;
+}
+
+.quote .title{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+}
